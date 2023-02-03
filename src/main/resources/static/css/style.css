@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+header {height:120px;}
+
+.contents{min-height:700px;}
+.good-box{height:150px; width:150px;}
+hr {border-top:1px dashed #bbb;}
+.scheduleMovie{height:100px;}
+.banner {height:150px;}
+footer{height:150px;}
