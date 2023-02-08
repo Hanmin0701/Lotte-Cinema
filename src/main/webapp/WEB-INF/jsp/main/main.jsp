@@ -30,6 +30,13 @@
 		</div>
 	</header>
 	
+	<!-- 메뉴 영역 -->
+	<nav>
+		<div>
+		
+		</div>
+	</nav>
+	
 	<%-- 중간 --%>
 	<section class="contents">
 		
