@@ -32,13 +32,127 @@
 	
 	<!-- 메뉴 영역 -->
 	<nav>
-		<div>
+		<div class="d-flex justify-content-center aline-items-center">
+			<ul>
+				<li>			
+					<a href="movie/ticketing" class="text-white">예매</a>
+				</li>
+				
+				<li>
+					<a href="main/movie" class="text-white">영화</a>
+				</li>
+				
+				<li>
+					<a href="main/cinema" class="text-white">영화관</a>   <!-- 이거를 누르고 지역이 나오고 지역에 커서를 올리면 그 지역에 있는 영화관 목록이 나오도록 하는 것 -->
+				</li>	
+					
+				<li>	
+					<a href="main/event" class="text-white">이벤트</a>
+				</li>	
+				
+				<li>
+					<a href="main/store" class="text-white">스토어</a>
+				</li>
+			</ul>
+		</div>
 		
+		<div class="d-flex justify-content-end">
+			<ul>
+				<li>
+					<a href="main/event" class="text-white">회원가입</a>
+				</li>
+				
+				<li>
+					<a href="main/store" class="text-white">바로예매</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
 	
 	<%-- 중간 --%>
 	<section class="contents">
+		<%-- 영화 정보 --%>
+		<div>
+			<img alt="롯데시네마 바탕화면" src="main/resources/static/image/movie.png">
+		</div>
+		
+		<div class="d-flex">
+			<div class="d-flex">
+				<img alt="방영일" src="main/resources/static/image/time.jpg"> 
+				<small class="text-white ml-2">02.09 16:00 기준</small>
+			</div>
+			
+			<!-- 영화 1 -->
+			<div class="mr-4">
+				<span><img alt="롯데시네마 영화 1등" src="main/resources/static/image/moviePost.png"></span>
+				<div class="justify-content-center aline-items-center">
+					<p>더 퍼스트 슬램덩크>
+					<div class="d-flex">
+						<span>예매율 34.5%  |</span>
+						<span class="text-warning">★</span><em>9.7  |</em>
+						<button type="button" class="form-control"></button>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 영화 2 -->
+			<div class="mr-4">
+				<span><img alt="롯데시네마 영화 2등" src="main/resources/static/image/moviePost2.png"></span>
+				<div class="justify-content-center aline-items-center">
+					<p>아바타: 물의 길</p>
+					<div class="d-flex">
+						<span>예매율 15.7%  |</span>
+						<span class="text-danger">D-6</span>
+						<button type="button" class="form-control"></button>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 영화 3 -->
+			<div class="mr-4">
+				<span><img alt="롯데시네마 영화 3등" src="main/resources/static/image/moviePost3.png"></span>
+				<div class="justify-content-center aline-items-center">
+					<p>타이타닉</p>
+					<div class="d-flex">
+						<span>예매율 15.0%  |</span>
+						<span class="text-warning">★</span><em>9.8  |</em>
+						<button type="button" class="form-control"></button>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 영화 4 -->
+			<div class="mr-4">
+				<span><img alt="롯데시네마 영화 4등" src="main/resources/static/image/moviePost4.png"></span>
+				<div class="justify-content-center aline-items-center">
+					<p>아바타: 물의 길</p>
+					<div class="d-flex">
+						<span>예매율 6.8%  |</span>
+						<span class="text-warning">★</span><em>9.5  |</em>
+						<button type="button" class="form-control"></button>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 영화 5(영화 광고) -->
+			<div class="mr-4">
+				<span><img alt="롯데시네마 영화 3등" src="main/resources/static/image/moviePost5.png"></span>
+			</div>
+			
+			<!-- 영화 6: 오른쪽 화살표를 눌렀을 때 나오면서 동시에 1번이 사라지고 거기에 왼쪽 화살표가 나오는 설계로 할 것이다. -->
+			<div class="mr-4">
+				<span><img alt="롯데시네마 영화 5등" src="main/resources/static/image/moviePost6.png"></span>
+				<div class="justify-content-center aline-items-center">
+					<p>바빌론</p>
+					<div class="d-flex">
+						<span>예매율 5.3%  |</span>
+						<span class="text-warning">★</span><em>8.9  |</em>
+						<button type="button" class="form-control"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		
 		<%-- 스페셜관 --%>
 		<div class="d-flex justify-content-end">

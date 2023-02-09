@@ -25,7 +25,7 @@
 				L.POINT 아이디 하나면, 모든 L.POINT 제휴사의 온라인/모바일을 편리하게 이용할 수 있습니다.
 			</span>
 
-			<button type="submit" class="btn btn-bg-info text-white">L<span class="text-warning">.</span>회원가입하기</button>
+			<button type="submit" a href="user/doSignUp" class="btn btn-bg-info text-white">L<span class="text-warning">.</span>회원가입하기</button>
 		</div>
 		<br>
 
