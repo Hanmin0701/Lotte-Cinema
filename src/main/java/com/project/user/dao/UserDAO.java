@@ -19,4 +19,7 @@ public interface UserDAO {
 	
 	// 로그인
 	public User selectUserByLoginIdPassword(String loginId, String password);
+	
+	// 중복 확인
+	public boolean existLoginId(String loginId);
 }

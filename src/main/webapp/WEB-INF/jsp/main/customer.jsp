@@ -760,7 +760,7 @@
 		
 			<br>
 			
-			<div class="d-flex justify-content-center aline-items-center">
+			<div class="d-flex justify-content-center align-items-center">
 				<button type="button" class="btn btn-bg-white text-dark border-dark">회원가입</button>
 				<button type="button" class="btn btn-bg-dark text-white border-dark">비회원 로그인</button>
 			</div>		
@@ -806,14 +806,14 @@
 						<th>예상인원</th>
 						<td>
 							<div class="d-flex">
-								<div class="d-flex justify-content-center aline-items-center">
+								<div class="d-flex justify-content-center align-items-center">
 									성인<input type="text" class="form-control">명
 									청소년<input type="text" class="form-control">명
 									<span>장애인<br>(정도가 심한)</span><input type="text" class="form-control">명
 									<span>장애인<br>(정도가 심하지 않은)</span><input type="text" class="form-control">명
 								</div>
 								
-								<div class="d-flex justify-content-center aline-items-center">
+								<div class="d-flex justify-content-center align-items-center">
 									시니어<input type="text" class="form-control">명
 									국가유공자<input type="text" class="form-control">명
 									어린이<input type="text" class="form-control">명
@@ -942,7 +942,7 @@
 		
 			<br>
 			
-			<div class="d-flex justify-content-center aline-items-center">
+			<div class="d-flex justify-content-center align-items-center">
 				<button type="button" class="btn btn-bg-white text-dark border-dark">취소</button>
 				<button type="button" class="btn btn-bg-dark text-white border-dark">확인</button>
 			</div>		
@@ -1104,7 +1104,7 @@
 		
 			<br>
 			
-			<div class="d-flex justify-content-center aline-items-center">
+			<div class="d-flex justify-content-center align-items-center">
 				<button type="button" class="btn btn-bg-white text-dark border-dark">취소</button>
 				<button type="button" class="btn btn-bg-dark text-white border-dark">확인</button>
 			</div>		

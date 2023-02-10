@@ -7,7 +7,7 @@
 
 <div>
 	<div>
-		<div class="d-flex justify-content-center aline-items-center">
+		<div class="d-flex justify-content-center align-items-center">
 			<h3>가입방법</h3>
 			<h3>L.POINT 안내</h3>
 		</div>
@@ -25,7 +25,7 @@
 				L.POINT 아이디 하나면, 모든 L.POINT 제휴사의 온라인/모바일을 편리하게 이용할 수 있습니다.
 			</span>
 
-			<button type="submit" a href="user/doSignUp" class="btn btn-bg-info text-white">L<span class="text-warning">.</span>회원가입하기</button>
+			<button type="submit" a href="/user/doSignUp" class="btn btn-bg-info text-white">L<span class="text-warning">.</span>회원가입하기</button>
 		</div>
 		<br>
 
@@ -35,7 +35,7 @@
 			<h4 class="mb-3">L.POINT 카드 신청</h4>
 			<span>L.POINT 아이디 하나면, 모든 L.POINT 제휴사의 온라인/모바일을 편리하게 이용할 수	있습니다.</span>
 			<hr>
-			<div class="d-flex justify-content-center aline-items-center">
+			<div class="d-flex justify-content-center align-items-center">
 				<h4>영화관 현장신청</h4>
 				<h4>홈페이지 설정</h4>
 			</div>
@@ -96,7 +96,7 @@
 		</div>
 		<br>
 		
-		<div class="d-flex justify-content-center aline-items-center">
+		<div class="d-flex justify-content-center align-items-center">
 			<h4>영화</h4>
 			<h4>매점</h4>
 		</div>

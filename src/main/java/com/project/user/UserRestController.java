@@ -23,6 +23,16 @@ public class UserRestController {
 	@Autowired
 	private UserBO userBO;
 	
+	/**
+	 * 회원가입 API
+	 * @param loginId
+	 * @param password
+	 * @param name
+	 * @param birth
+	 * @param phoneNumber
+	 * @param email
+	 * @return
+	 */
 	// 회원가입
 	@PostMapping("/sign_up")
 	public Map<String, Object> singUp(
@@ -45,7 +55,13 @@ public class UserRestController {
 		return result;
 	}
 	
-	
+	/**
+	 * 로그인 API
+	 * @param loginId
+	 * @param password
+	 * @param request
+	 * @return
+	 */
 	// 로그인
 	@PostMapping("/sign_in")
 	public Map<String, Object> signIn(
@@ -72,6 +88,33 @@ public class UserRestController {
 		} else {
 			result.put("code", 500);
 			result.put("result", "아이디나 비번이 일치하지 않습니다.");
+		}
+		
+		return result;
+	}
+	
+	// 아이디 중복 확인(한 사람당 하나의 계정만 만들수 있도록 한다.)
+	@RequestMapping("/duplicated_id") 
+	public Map<String, Object> duplicatedId(
+			@RequestParam("loginId") String loginId) {
+		
+		Map<String, Object> result = new HashMap<>();
+		boolean duplicatedId = false;
+		
+		// db 연동(try catch로 오류 차단)
+		try {
+			duplicatedId = userBO.existLoginId(loginId);
+		} catch(Exception e) {
+			result.put("code", 500);
+			result.put("errorMessage", "중복 확인하는데 실패했습니다.");
+		}
+
+		if(duplicatedId) { // 중복일때
+			result.put("code", 1);
+			result.put("result", true);
+		} else { // 사용 가능한 아이디일 경우
+			result.put("code", 1);
+			result.put("result", false);
 		}
 		
 		return result;

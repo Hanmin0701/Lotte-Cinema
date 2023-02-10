@@ -7,6 +7,7 @@ public class User {
 	private int id;
 	private int loginId;
 	private String password;
+	private String confirmPassword;
 	private String name;
 	private String birth;
 	private String email;
@@ -30,6 +31,12 @@ public class User {
 	}
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	public String getConfirmPassword() {
+		return confirmPassword;
+	}
+	public void setConfirmPassword(String confirmPassword) {
+		this.confirmPassword = confirmPassword;
 	}
 	public String getName() {
 		return name;
@@ -67,11 +74,5 @@ public class User {
 	public void setCreatedAt(Date createdAt) {
 		this.createdAt = createdAt;
 	}
-	public Date getUpdatedAt() {
-		return updatedAt;
-	}
-	public void setUpdatedAt(Date updatedAt) {
-		this.updatedAt = updatedAt;
-	}
-	private Date updatedAt;
+	
 }

@@ -8,7 +8,7 @@
 </head>
 <body>	
 	<header class="bg-info">
-		<div class="d-flex justify-content-center aline-items-center">
+		<div class="d-flex justify-content-center align-items-center">
 			<%-- 링크 --%>
 			<div class="d-flex">
 				<a href="https://www.facebook.com/LotteCinema.kr"><img src="main/resources/static/image/facebook.png"><span class="text-white">페이스북</span></a>
@@ -21,7 +21,7 @@
 			</logo>
 			
 			<%-- 목록 --%>
-			<div class="d-flex justify-content-center aline-items-center">
+			<div class="d-flex justify-content-center align-items-center">
 				<a href="main/Vipzone" class="text-white">멤버십</a>
 				<a href="main/customer" class="text-white">고객센터</a>
 				<a href="main/Registration" class="text-white">단체관람/대관문의</a>
@@ -32,7 +32,7 @@
 	
 	<!-- 메뉴 영역 -->
 	<nav>
-		<div class="d-flex justify-content-center aline-items-center">
+		<div class="d-flex justify-content-center align-items-center">
 			<ul>
 				<li>			
 					<a href="movie/ticketing" class="text-white">예매</a>
@@ -59,11 +59,11 @@
 		<div class="d-flex justify-content-end">
 			<ul>
 				<li>
-					<a href="main/event" class="text-white">회원가입</a>
+					<a href="/user/signUp" class="text-white">회원가입</a>
 				</li>
 				
 				<li>
-					<a href="main/store" class="text-white">바로예매</a>
+					<a href="/main/ticketing" class="text-white">바로예매</a>
 				</li>
 			</ul>
 		</div>
@@ -85,7 +85,7 @@
 			<!-- 영화 1 -->
 			<div class="mr-4">
 				<span><img alt="롯데시네마 영화 1등" src="main/resources/static/image/moviePost.png"></span>
-				<div class="justify-content-center aline-items-center">
+				<div class="justify-content-center align-items-center">
 					<p>더 퍼스트 슬램덩크>
 					<div class="d-flex">
 						<span>예매율 34.5%  |</span>
@@ -98,7 +98,7 @@
 			<!-- 영화 2 -->
 			<div class="mr-4">
 				<span><img alt="롯데시네마 영화 2등" src="main/resources/static/image/moviePost2.png"></span>
-				<div class="justify-content-center aline-items-center">
+				<div class="justify-content-center alige-items-center">
 					<p>아바타: 물의 길</p>
 					<div class="d-flex">
 						<span>예매율 15.7%  |</span>
@@ -111,7 +111,7 @@
 			<!-- 영화 3 -->
 			<div class="mr-4">
 				<span><img alt="롯데시네마 영화 3등" src="main/resources/static/image/moviePost3.png"></span>
-				<div class="justify-content-center aline-items-center">
+				<div class="justify-content-center align-items-center">
 					<p>타이타닉</p>
 					<div class="d-flex">
 						<span>예매율 15.0%  |</span>
@@ -124,7 +124,7 @@
 			<!-- 영화 4 -->
 			<div class="mr-4">
 				<span><img alt="롯데시네마 영화 4등" src="main/resources/static/image/moviePost4.png"></span>
-				<div class="justify-content-center aline-items-center">
+				<div class="justify-content-center align-items-center">
 					<p>아바타: 물의 길</p>
 					<div class="d-flex">
 						<span>예매율 6.8%  |</span>
@@ -142,7 +142,7 @@
 			<!-- 영화 6: 오른쪽 화살표를 눌렀을 때 나오면서 동시에 1번이 사라지고 거기에 왼쪽 화살표가 나오는 설계로 할 것이다. -->
 			<div class="mr-4">
 				<span><img alt="롯데시네마 영화 5등" src="main/resources/static/image/moviePost6.png"></span>
-				<div class="justify-content-center aline-items-center">
+				<div class="justify-content-center align-items-center">
 					<p>바빌론</p>
 					<div class="d-flex">
 						<span>예매율 5.3%  |</span>

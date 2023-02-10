@@ -21,5 +21,10 @@ public class UserBO {
 	public User getUserByLoginIdPassword(String loginId, String password) {
 		return userDAO.selectUserByLoginIdPassword(loginId, password);
 	}
-
+	
+	// 중복 확인 (로그인 ID)
+	public boolean existLoginId(String loginId) {
+		return userDAO.existLoginId(loginId);
+	}
+	
 }

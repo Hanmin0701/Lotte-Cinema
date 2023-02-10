@@ -61,6 +61,21 @@
 		<table>
 			<tbody>
 				<tr>
+					<th class="text-secondary">아이디</th>
+					<td><input type="text" class="form-control" placeholder="아이디를 입력해주세요."></td>
+					
+					<br>
+					
+					<button type="button" class="duplicatedIdBtn btn-bg-danger form-contorl">중복확인</button>
+				</tr>
+				
+				<tr>
+					<th class="text-secondary">아이디</th>
+					<td><input type="password" class="form-control" placeholder="비밀번호를 입력해주세요."></td>
+				</tr>
+			
+			
+				<tr>
 					<th class="text-secondary">이름</th>
 					<td><input type="text" class="form-control" placeholder="한글 또는 영문으로 입력해주세요."></td>
 				</tr>
@@ -103,10 +118,10 @@
 				</tr>
 				<span class="text-secondary">-휴대폰 본인확인 시 타인 명의를 도용할 경우, "정보통신망법 제 49조"에 의거하여 5년 이하의 징역 또는 5천만원 이하의 벌금에 처할 수 있습니다.</span>
 				
-			<div class="d-flex justify-content-center aline-items-center">
-				<button type="button" class="btn btn-bg-white text-dark border-dark">취소</button>
-				<button type="button" class="btn btn-bg-danger text-white border-danger">인증 요청</button>
-			</div>
+				<div class="d-flex justify-content-center align-items-center">
+					<button type="button" a href="/user/signUp" class="btn btn-bg-white text-dark border-dark">취소</button>
+					<button type="button" class="btn btn-bg-danger text-white border-danger">회원가입</button>
+				</div>
 			</tbody>
 		</table>
 	</section>

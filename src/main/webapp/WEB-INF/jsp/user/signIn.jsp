@@ -218,7 +218,7 @@
 	
 		<br>
 		
-		<div class="d-flex justify-content-center aline-items-center">
+		<div class="d-flex justify-content-center align-items-center">
 			<button type="button" class="btn btn-bg-white text-dark border-dark">회원가입</button>
 			<button type="button" class="btn btn-bg-dark text-white border-dark">비회원 로그인</button>
 		</div>
@@ -234,7 +234,7 @@
 				<button type="button" class="form-control btn-bg-white">카카오 계정으로 로그인</button>
 			</a>
 			
-			<div class="justify-content-center aline-items-center">
+			<div class="justify-content-center align-items-center">
 				<a href="user/sign_up">회원가입</a>  |
 				<a href="#">아이디 찾기</a>  |
 				<a href="#">비밀번호 찾기</a>
